@@ -1,0 +1,86 @@
+.bookContainer {
+  display: flex;
+  flex-direction: row;
+  margin: 8px;
+  padding: 10px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 10px 20px;
+}
+h1 {
+  text-align: center;
+}
+.bookInfo {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  align-items: center;
+  padding: 0 10px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+.left {
+  display: block;
+  margin-right: 20px;
+}
+img {
+  cursor: pointer;
+}
+.right {
+  display: block;
+  text-align: left;
+}
+.right .des {
+  line-height: 1.5;
+  font-style: italic;
+}
+button {
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  padding: 5px 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.deleteBtn {
+  color: red;
+}
+
+.addBtn {
+  color: green;
+  background-color: #e3e0e0;
+  border-radius: 5px;
+  justify-content: flex-start;
+  margin-left: 40px;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 2px 8px;
+}
+
+.addBtn:hover {
+  color: rgb(93, 96, 96);
+  background-color: bisque;
+}
+
+.deleteBtn:hover {
+  color: #fff;
+  background-color: red;
+}
+
+@media screen and (max-width: 1140px) {
+  .bookInfo {
+    width: auto;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  img {
+    width: 200px;
+    height: 250px;
+  }
+}

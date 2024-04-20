@@ -1,0 +1,42 @@
+.container {
+  margin: 20px 100px;
+  position: relative;
+}
+h2 {
+  text-align: center;
+}
+.book_detail {
+  position: absolute;
+  width: 520px;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.book_detail img {
+  cursor: alias;
+}
+
+.backBtn {
+  background-color: #858484;
+  border-radius: 5px;
+  align-items: left;
+  text-decoration: none;
+  padding: 5px 15px;
+  color: #fff;
+  margin: 20px 10px;
+}
+
+.backBtn:hover {
+  color: #868383;
+  background-color: rgb(245, 209, 209);
+}
