@@ -51,7 +51,7 @@ export const books = [
   {
     _id: "6",
     name: "Jane Eyre",
-    price: 79,
+    price: 80,
     category: "Novel",
     image:
       "https://th.bing.com/th/id/OIP.0pGf5-srfkBJaBeljJn3KgHaLX?rs=1&pid=ImgDetMain",
